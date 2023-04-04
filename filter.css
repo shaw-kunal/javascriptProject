@@ -1,0 +1,69 @@
+.container {
+  flex: 5;
+  display: flex;
+
+  gap: 20px;
+}
+.leftMenu {
+  flex: 1;
+  border-right: 0.5px solid rgb(176, 171, 171);
+  width: 100vh;
+  padding: 50px 10px 0px 20px;
+}
+.search {
+  padding: 4px 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+.leftMenu h1 {
+  font-size: 30px;
+  color: #555;
+  font-weight: 300;
+}
+.leftMenu .cats {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.leftMenu .cats .cat {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.content {
+  flex: 4;
+}
+
+.content .products {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+
+}
+.content .products .product {
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+-webkit-box-shadow: 4px 5px 32px 5px #C2C2C2; 
+box-shadow: 4px 5px 32px 5px #dedbdb;
+padding: 25px;
+margin: 0 10px;
+border-radius: 4px;
+
+
+    
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

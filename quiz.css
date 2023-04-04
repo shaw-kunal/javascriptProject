@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.game {
+  /* display: none; */
+}
+
+.content {
+  padding: 50px;
+}
+.content .question {
+  font-size: 30px;
+}
+.content .answers .answer {
+  margin: 10px;
+}
+
+.container .submit {
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+  padding: 3px 1rem;
+  border: none;
+  color: white;
+  font-size: 25px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 10px;
+  left: 10rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.container .result
+{  
+  display: none;
+  flex-direction: column;
+  gap:8px;
+  
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container .result h1 {
+  font-size: 50px;
+  margin: 0;
+  color: #007bff;
+}
+.container .result .correct {
+  color: #28a745 !important;
+}
+.container .result .wrong {
+  color: red;
+}
+
+.container .result .play {
+  color: white;
+  background-color: rebeccapurple;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
