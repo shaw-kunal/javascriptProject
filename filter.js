@@ -14,19 +14,20 @@ const data = [
         cat: "dress",
     },
 
-    {
-        id: 2,
-        name: "timex men's expedition scout_sports",
-        img: "https://m.media-amazon.com/images/I/61utX8kBDlL._AC_UL320_.jpg",
-        price: 40,
-        cat: "sport",
-    },
+   
     {
         id: 3,
         name: "Breitling  superocean Heritage",
         img: "https://m.media-amazon.com/images/I/413O7hxn+HL._AC_UL600_FMwebp_QL65_.jpg",
         price: 200,
         cat: "Luxury"
+    },
+    {
+        id: 7,
+        name: "MOTOROLA e13 (Aurora Green, 64 GB)  (4 GB RAM)",
+        img: "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/i/8/5/-original-imagmmmhmjpfvbry.jpeg?q=70",
+        price: 150,
+        cat: "Phone",
     },
     {
         id: 4,
@@ -49,6 +50,7 @@ const data = [
         price: 100,
         cat: "Casual",
     },
+  
     {
         id: 6,
         name: "POCO C31 (Royal Blue, 64 GB)  (4 GB RAM)",
@@ -57,18 +59,18 @@ const data = [
         cat: "Phone",
     },
     {
-        id: 7,
-        name: "MOTOROLA e13 (Aurora Green, 64 GB)  (4 GB RAM)",
-        img: "https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/i/8/5/-original-imagmmmhmjpfvbry.jpeg?q=70",
-        price: 150,
-        cat: "Phone",
-    },
-    {
         id: 8,
         name: "realme C30 (Bamboo Green, 32 GB)  (3 GB RAM)",
         img: "https://rukminim1.flixcart.com/image/312/312/l4ln8nk0/mobile/p/h/p/-original-imagfggryyzyvhgw.jpeg?q=70",
         price: 250,
         cat: "Phone",
+    },
+    {
+        id: 2,
+        name: "timex men's expedition scout_sports",
+        img: "https://m.media-amazon.com/images/I/61utX8kBDlL._AC_UL320_.jpg",
+        price: 40,
+        cat: "sport",
     },
 
 ]
